@@ -1,0 +1,27 @@
+generated: '2026-08-12'
+method: searched
+source: https://easywebinar.com/enterprise/
+limit_count: 0
+note: >-
+  EasyWebinar publishes no rate limits. There is no developer portal, no API reference and
+  no rate-limit page anywhere on easywebinar.com, app.easywebinar.com or the Intercom
+  support hub; the REST API is a Scale/Enterprise entitlement documented only to customers.
+  The one publicly reachable API surface (the OAuth 2.0 / OIDC authorization server at
+  app.easywebinar.com) returned no RateLimit-*, X-RateLimit-* or Retry-After headers on any
+  anonymous probe, and no 429 was observed. Recorded as an honest zero rather than omitted.
+limits: []
+response_headers_observed: []
+exhaustion_status_code: null
+searched:
+  - url: https://easywebinar.com/enterprise/
+    status: 200
+    result: markets a REST API and webhooks; states no limits
+  - url: https://easywebinar.com/pricing/
+    status: 200
+    result: caps are product quotas (attendees, webinars, AI credits), not API rate limits
+  - url: https://support.easywebinar.com/llms.txt
+    status: 200
+    result: 154 help-center articles, none about API rate limits
+  - url: https://app.easywebinar.com/oauth/me/
+    status: 400
+    result: no rate-limit headers on the response

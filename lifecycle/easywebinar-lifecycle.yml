@@ -1,0 +1,54 @@
+generated: '2026-08-12'
+method: searched
+source: https://easywebinar.com/enterprise/
+versioning:
+  scheme: unknown
+  current: null
+  docs: null
+  note: >-
+    No API version is published. The OAuth endpoints are unversioned paths
+    (/oauth/authorize/, /oauth/token/) and no versioned REST base is documented anywhere.
+deprecation:
+  policy_url: null
+  sunset_header: unknown
+  note: >-
+    No deprecation policy and no evidence of RFC 8594 Sunset/Deprecation headers. Nothing
+    to point a Deprecation pointer at.
+sla:
+  url: null
+  uptime_target: '99.9%'
+  availability: >-
+    A "99.9% uptime" figure is stated on the enterprise page as a marketing claim. The
+    actual SLA is contractual: "Enterprise customers are backed by a named uptime SLA on
+    broadcast and event infrastructure ... Contact enterprise sales for specific SLA terms
+    applicable to your contract." No SLA document is published.
+  source: https://easywebinar.com/enterprise/
+status_page: null
+status_page_probes:
+  - url: https://status.easywebinar.com/
+    status: 000
+    result: DNS does not resolve
+changelog:
+  url: null
+  probes:
+    - url: https://easywebinar.com/changelog/
+      status: 404
+    - url: https://easywebinar.com/whats-new/
+      status: 404
+    - url: https://easywebinar.com/release-notes/
+      status: 404
+    - url: https://easywebinar.com/updates/
+      status: 404
+    - url: https://easywebinar.com/blog/category/product-updates/
+      status: 404
+  note: >-
+    Product changes are announced as help-center articles and blog posts rather than as a
+    dated changelog. No ChangeLog pointer is emitted because there is no changelog surface.
+deprecated_operations: []
+x-evidence:
+  - url: https://easywebinar.com/enterprise/
+    status: 200
+  - url: https://status.easywebinar.com/
+    status: 000
+  - url: https://easywebinar.com/changelog/
+    status: 404

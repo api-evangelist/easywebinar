@@ -1,0 +1,53 @@
+generated: '2026-08-12'
+method: searched
+source: https://easywebinar.com/enterprise/
+spec_type: null
+note: >-
+  EasyWebinar publishes NO AsyncAPI document and NO webhook reference. It does advertise a
+  webhook surface in first-party copy on its own enterprise page, and a real, callable
+  event surface is observable indirectly through the Zapier app it publishes. Everything
+  below is the advertised event surface with its source quoted; nothing is invented, and no
+  payload schema is asserted because none is published.
+advertised:
+  quote: >-
+    "Does EasyWebinar offer a public API and webhooks? Yes. EasyWebinar exposes a REST API
+    and webhooks covering registration, attendance, lead data, CRM sync, and event lifecycle
+    events. Enterprise customers receive sandbox access and dedicated integration support
+    from solutions engineering during onboarding."
+  source: https://easywebinar.com/enterprise/
+  availability: Scale plan and Enterprise only (see plans/easywebinar-plans-pricing.yml)
+event_domains_advertised:
+  - registration
+  - attendance
+  - lead data
+  - CRM sync
+  - event lifecycle
+zapier:
+  app: https://zapier.com/apps/easywebinar/integrations
+  note: >-
+    The published Zapier app is the only place EasyWebinar's event surface is enumerated by
+    name in public. Zapier triggers are polling or REST-hook subscriptions against the same
+    surface; the names are quoted verbatim from the listing.
+  triggers:
+    - name: New Webinar Registration
+      fires: when someone registers for a webinar
+    - name: Tagging for Webinar
+      fires: when a tag is added to a webinar
+    - name: Tagging for an Offer
+      fires: when a tag is added to an offer
+  actions:
+    - name: Register Attendee
+      does: enrolls a new participant in EasyWebinar
+gaps:
+  - no AsyncAPI document
+  - no webhook event catalogue or payload schemas
+  - no signing/verification scheme published
+  - no delivery/retry semantics published
+  - no subscription management API documented
+x-evidence:
+  - url: https://easywebinar.com/enterprise/
+    status: 200
+  - url: https://zapier.com/apps/easywebinar/integrations
+    status: 200
+  - url: https://easywebinar.com/asyncapi.yaml
+    status: 404

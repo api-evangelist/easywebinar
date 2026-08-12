@@ -1,0 +1,42 @@
+generated: '2026-08-12'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=easywebinar
+note: >-
+  No first-party EasyWebinar SDK exists on any public registry. npm, PyPI, RubyGems and
+  Packagist were queried directly; only one loosely related package was found and it is not
+  clearly first-party, so NO SDKs pointer is emitted. This is consistent with the API being
+  a Scale/Enterprise entitlement with no public developer program.
+official_count: 0
+packages:
+  - language: javascript
+    registry: npm
+    name: ew-common
+    url: https://www.npmjs.com/package/ew-common
+    install: npm install ew-common
+    official: false
+    version: 1.0.3
+    published: '2020-05-01'
+    description: Easywebinar ew-common library
+    note: >-
+      Names EasyWebinar in its description but is published by a single maintainer at
+      softobiz.com (an outside development agency), has no repository, no homepage and no
+      release since 2020-05-01 — six years stale. Not treated as an official SDK.
+registries_checked:
+  - registry: npm
+    query: easywebinar
+    result: 1 loosely-related package (ew-common), no first-party SDK
+  - registry: pypi
+    query: easywebinar
+    status: 404
+    result: absent
+  - registry: rubygems
+    query: easywebinar
+    status: 404
+    result: absent
+  - registry: packagist
+    query: easywebinar/easywebinar
+    status: 404
+    result: absent
+  - registry: postman
+    query: easywebinar
+    result: 0 public workspaces, collections or APIs

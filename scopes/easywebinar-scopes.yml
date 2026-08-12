@@ -1,0 +1,56 @@
+generated: '2026-08-12'
+method: probed
+source: https://app.easywebinar.com/.well-known/openid-configuration
+docs: null
+note: >-
+  EasyWebinar publishes no scopes / permissions reference page. Every scope below is read
+  verbatim from scopes_supported in the live discovery document. There is no OpenAPI to
+  derive operation-level scope requirements from, so the mapping of scope to capability is
+  unknown and deliberately left unstated rather than guessed.
+schemes:
+  - name: EasyWebinarOAuth2
+    source: well-known/easywebinar-openid-configuration.json
+    issuer: https://app.easywebinar.com
+    flows:
+      - flow: authorizationCode
+        authorizationUrl: https://app.easywebinar.com/oauth/authorize/
+        tokenUrl: https://app.easywebinar.com/oauth/token/
+      - flow: clientCredentials
+        tokenUrl: https://app.easywebinar.com/oauth/token/
+      - flow: implicit
+        authorizationUrl: https://app.easywebinar.com/oauth/authorize/
+scopes:
+  - scope: openid
+    description: >-
+      Standard OIDC scope requesting an id_token for the authenticated EasyWebinar user.
+      Description is the OIDC Core definition; EasyWebinar publishes none of its own.
+    flows: [authorizationCode, clientCredentials, implicit]
+    sources: [well-known/easywebinar-openid-configuration.json]
+  - scope: profile
+    description: >-
+      Standard OIDC scope for the end-user profile claims returned by /oauth/me/.
+      Description is the OIDC Core definition; EasyWebinar publishes none of its own.
+    flows: [authorizationCode, clientCredentials, implicit]
+    sources: [well-known/easywebinar-openid-configuration.json]
+  - scope: email
+    description: >-
+      Standard OIDC scope for the email and email_verified claims. Description is the OIDC
+      Core definition; EasyWebinar publishes none of its own.
+    flows: [authorizationCode, clientCredentials, implicit]
+    sources: [well-known/easywebinar-openid-configuration.json]
+  - scope: basic
+    description: >-
+      Vendor-specific scope advertised by the authorization server. EasyWebinar publishes
+      no definition for it and there is no reference to resolve it against.
+    flows: [authorizationCode, clientCredentials, implicit]
+    sources: [well-known/easywebinar-openid-configuration.json]
+scope_count: 4
+gaps:
+  - >-
+    No resource-level scopes are advertised. The REST API EasyWebinar markets on its
+    enterprise page (registration, attendance, lead data, CRM sync, event lifecycle) has no
+    corresponding scope in the published metadata, so either it authenticates by another
+    mechanism or its scopes are not discoverable anonymously.
+x-evidence:
+  - url: https://app.easywebinar.com/.well-known/openid-configuration
+    status: 200

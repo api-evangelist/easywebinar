@@ -1,0 +1,77 @@
+generated: '2026-08-12'
+method: probed
+source: https://app.easywebinar.com/oauth/
+format: rfc6749
+note: >-
+  Derived from responses observed on the only publicly reachable EasyWebinar API surface —
+  the OAuth 2.0 / OIDC authorization server at app.easywebinar.com. EasyWebinar publishes no
+  error reference, so every entry below is an envelope actually returned to an anonymous
+  probe on 2026-08-12, quoted verbatim. This is NOT RFC 9457 problem+json; it is the RFC
+  6749 §5.2 error object.
+envelope:
+  content_type: application/json
+  fields:
+    - name: error
+      description: RFC 6749 error code
+    - name: error_description
+      description: human-readable explanation
+    - name: error_uri
+      description: link to the RFC section (present on some responses, absent on others)
+problems:
+  - status: 400
+    code: invalid_client
+    title: No client id supplied
+    observed_at: https://app.easywebinar.com/oauth/authorize/
+    body: '{"error":"invalid_client","error_description":"No client id supplied"}'
+  - status: 405
+    code: invalid_request
+    title: The request method must be POST when requesting an access token
+    observed_at: https://app.easywebinar.com/oauth/token/
+    error_uri: http://tools.ietf.org/html/rfc6749#section-3.2
+  - status: 405
+    code: invalid_request
+    title: The request method must be POST when revoking an access token
+    observed_at: https://app.easywebinar.com/oauth/revoke/
+    error_uri: http://tools.ietf.org/html/rfc6749#section-3.2
+  - status: 400
+    code: invalid_request
+    title: Invalid token
+    observed_at: https://app.easywebinar.com/oauth/me/
+    error_uri: https://tools.ietf.org/html/draft-ietf-oauth-v2-31#section-7.2
+  - status: 400
+    code: invalid_request
+    title: Invalid token
+    observed_at: https://app.easywebinar.com/oauth/introspection/
+    error_uri: https://tools.ietf.org/html/draft-ietf-oauth-v2-31#section-7.2
+  - status: 400
+    code: invalid_request
+    title: unknown request
+    observed_at: https://app.easywebinar.com/.well-known/{unknown-path}
+    body: '{"error":"invalid_request","error_description":"unknown request"}'
+    note: >-
+      The authorization server answers ANY unrecognised /.well-known/ path with a 400 OAuth
+      error rather than a 404. Treat a 400 "unknown request" on this host as absence.
+  - status: 404
+    code: rest_no_route
+    title: No route was found matching the URL and request method
+    observed_at: https://app.easywebinar.com/v1/openapi.json
+    body: '{"code":"rest_no_route","message":"...","data":{"status":404}}'
+    note: >-
+      A second, different error envelope (WordPress REST shape) is returned by parts of the
+      same host. The application surface is not internally consistent about error format.
+deviations:
+  - id: no-rfc9457
+    detail: no application/problem+json anywhere on the observable surface
+  - id: mixed-envelopes
+    detail: >-
+      Two incompatible error shapes on one host — the OAuth {error, error_description}
+      object and the WordPress {code, message, data.status} object.
+  - id: wrong-status-for-unknown-path
+    detail: unknown /.well-known/ paths return 400, not 404
+  - id: stale-error-uri
+    detail: >-
+      error_uri values cite draft-ietf-oauth-v2-31, a 2012 OAuth 2.0 draft, rather than
+      RFC 6749/6750.
+x-evidence:
+  fetched: '2026-08-12'
+  method: anonymous GET, no credentials used

@@ -1,0 +1,56 @@
+# EasyWebinar — LLMS.txt
+
+# https://easywebinar.com/llms.txt
+
+# Last Updated: 2026-04-18
+
+## About EasyWebinar
+
+EasyWebinar is an automated and live webinar platform designed for course creators, marketers, coaches, and enterprises. Products include Automated Webinars, Live Webinars, EasyCast (live streaming), AI Webinar Funnel Builder, and Easy Suite (CRM + webinar platform).
+
+## Primary Content
+
+- Homepage: https://easywebinar.com/
+- Automated Webinars: https://easywebinar.com/automated-webinar/
+- Live Webinars: https://easywebinar.com/live-webinars/
+- All Features: https://easywebinar.com/all-features/
+- EasyCast: https://easywebinar.com/easycast/
+- AI Webinar Funnel Builder: https://easywebinar.com/ai-webinar-funnel-builder/
+- Easy Suite: https://easywebinar.com/easy-suite/
+- Easy Suite Sales CRM: https://easywebinar.com/easy-suite-sales-crm/
+- Pricing: https://easywebinar.com/pricing/
+- Integrations: https://easywebinar.com/integrations/
+- Testimonials: https://easywebinar.com/testimonials/
+
+## Comparison Pages
+
+- EasyWebinar vs Zoom: https://easywebinar.com/compare/easywebinar-vs-zoom/
+- EasyWebinar vs GoToWebinar: https://easywebinar.com/compare/easywebinar-vs-gotowebinar/
+- EasyWebinar vs Demio: https://easywebinar.com/compare/easywebinar-vs-demio/
+- EasyWebinar vs Stealth Seminar: https://easywebinar.com/compare/easywebinar-vs-stealth-seminar/
+- EasyWebinar vs WebinarNinja: https://easywebinar.com/compare/easywebinar-vs-webinar-ninja/
+- EasyWebinar vs EverWebinar/WebinarJam: https://easywebinar.com/compare/easywebinar-vs-everwebinar-webinarjam/
+
+## Case Studies
+
+- Amy Porterfield: https://easywebinar.com/case-study-amy-porterfield/
+- Jenna Kutcher: https://easywebinar.com/case-study-jenna-kutcher/
+- Amy McCready: https://easywebinar.com/case-study-amy-mccready/
+- K21 EdTech: https://easywebinar.com/case-study-k21-edtech/
+- Dr. Fryer Wellness: https://easywebinar.com/case-study-dr-fryer-wellness/
+- April & Eric Perry: https://easywebinar.com/case-study-april-eric-perry/
+- Carla Biesinger: https://easywebinar.com/case-study-carla-beisinger-course-creator/
+
+## Blog
+
+- Blog Index: https://easywebinar.com/blog/
+- XML Sitemap: https://easywebinar.com/sitemap.xml
+
+## Contact & Legal
+
+- Privacy Policy: https://easywebinar.com/privacy/
+- Terms & Conditions: https://easywebinar.com/terms-conditions/
+- GDPR: https://easywebinar.com/gdpr/
+- Data Processing Addendum: https://easywebinar.com/data-processing-addendum/
+- Cookies: https://easywebinar.com/cookies/
+

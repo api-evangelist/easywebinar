@@ -1,0 +1,99 @@
+generated: '2026-08-12'
+method: probed
+source: https://app.easywebinar.com/.well-known/openid-configuration
+docs: null
+note: >-
+  Derived from the live OpenID Connect / RFC 8414 discovery document EasyWebinar serves at
+  app.easywebinar.com — there is no public authentication reference page. The EasyWebinar
+  REST API itself is a paid entitlement (Scale plan and Enterprise), and no public
+  documentation of its auth model exists, so everything below is what the authorization
+  server itself publishes plus what its endpoints returned to anonymous probes.
+summary:
+  types: [oauth2, openIdConnect]
+  api_key_in: []
+  oauth2_flows: [authorizationCode, clientCredentials, refreshToken, implicit]
+  token_endpoint_auth_methods: [client_secret_basic]
+  id_token_signing_alg: [RS256]
+schemes:
+  - name: EasyWebinarOIDC
+    type: openIdConnect
+    openIdConnectUrl: https://app.easywebinar.com/.well-known/openid-configuration
+    issuer: https://app.easywebinar.com
+    sources: [well-known/easywebinar-openid-configuration.json]
+  - name: EasyWebinarOAuth2
+    type: oauth2
+    sources: [well-known/easywebinar-oauth-authorization-server.json]
+    flows:
+      - flow: authorizationCode
+        authorizationUrl: https://app.easywebinar.com/oauth/authorize/
+        tokenUrl: https://app.easywebinar.com/oauth/token/
+        refreshUrl: https://app.easywebinar.com/oauth/token/
+        scopes: [openid, profile, email, basic]
+      - flow: clientCredentials
+        tokenUrl: https://app.easywebinar.com/oauth/token/
+        scopes: [openid, profile, email, basic]
+      - flow: implicit
+        authorizationUrl: https://app.easywebinar.com/oauth/authorize/
+        scopes: [openid, profile, email, basic]
+endpoints:
+  authorization: https://app.easywebinar.com/oauth/authorize/
+  token: https://app.easywebinar.com/oauth/token/
+  userinfo: https://app.easywebinar.com/oauth/me/
+  introspection: https://app.easywebinar.com/oauth/introspection/
+  revocation: https://app.easywebinar.com/oauth/revoke/
+  end_session: https://app.easywebinar.com/oauth/destroy/
+  jwks: https://app.easywebinar.com/.well-known/keys/
+  registration: null
+grant_types_supported:
+  - authorization_code
+  - client_credentials
+  - refresh_token
+  - uswo_me_resource_returner_credentials
+  - implicit
+response_types_supported: [code, id_token, token id_token, code id_token]
+subject_types_supported: [public]
+deviations:
+  - id: no-dynamic-registration
+    detail: registration_endpoint is explicitly null — clients must be provisioned out of band.
+  - id: no-service-documentation
+    detail: service_documentation is null; the discovery document points at no human reference.
+  - id: implicit-flow-advertised
+    detail: >-
+      The implicit grant and the "token id_token" response type are still advertised;
+      OAuth 2.1 / BCP 225 deprecate implicit for public clients.
+  - id: single-client-auth-method
+    detail: only client_secret_basic is advertised — no client_secret_post, no PKCE/S256 announcement.
+  - id: no-code-challenge-methods
+    detail: code_challenge_methods_supported is absent from the discovery document, so PKCE support is unstated.
+  - id: nonstandard-grant-type
+    detail: >-
+      "uswo_me_resource_returner_credentials" is a vendor-private grant type (the uswo_
+      prefix belongs to the WP OAuth Server implementation) and is not documented anywhere public.
+  - id: empty-jwks-key-material
+    detail: >-
+      The JWKS at /.well-known/keys/ returns one RS256 key with n and e as empty strings,
+      so an id_token cannot be verified from the published metadata.
+sso:
+  saml2: true
+  scim: true
+  two_factor: true
+  availability: Enterprise plan only
+  source: https://easywebinar.com/enterprise/
+x-evidence:
+  - url: https://app.easywebinar.com/.well-known/openid-configuration
+    status: 200
+  - url: https://app.easywebinar.com/.well-known/oauth-authorization-server
+    status: 200
+  - url: https://app.easywebinar.com/.well-known/keys/
+    status: 200
+  - url: https://app.easywebinar.com/oauth/authorize/
+    status: 400
+    body: '{"error":"invalid_client","error_description":"No client id supplied"}'
+  - url: https://app.easywebinar.com/oauth/token/
+    status: 405
+    body: request method must be POST when requesting an access token
+  - url: https://app.easywebinar.com/oauth/me/
+    status: 400
+    body: '{"error":"invalid_request","error_description":"Invalid token"}'
+  - url: https://easywebinar.com/enterprise/
+    status: 200

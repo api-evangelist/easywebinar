@@ -1,0 +1,106 @@
+generated: '2026-08-12'
+method: searched
+source: https://easywebinar.com/pricing/
+currency: USD
+billing_periods: [monthly, annual]
+annual_discount: 2 months free (annual billing), advertised "From $96/mo billed annually"
+trial: 7-day full access, cancel anytime
+plan_count: 5
+api_access_note: >-
+  API ACCESS IS A PLAN ENTITLEMENT, NOT A PUBLIC SURFACE. The pricing page states API
+  access first appears on the Scale tier ("SSO/SAML, API access & white labelling",
+  "full API & webhooks for custom builds") and on Enterprise. Launch, Growth and Pro have
+  no API. This is why no public API reference or specification exists to harvest.
+plans:
+  - name: Launch
+    price: 44
+    currency: USD
+    period: month
+    billing: monthly
+    positioning: Run live webinars and validate an offer before you automate it.
+    quotas:
+      live_attendees_per_session: 50
+      automated_viewers_per_session: 0
+      ai_funnels_per_month: 2
+      ai_credits_per_month: 200
+      total_webinars: 5
+      live_session_duration_hours: 2
+      session_replay_viewers: 250
+    integrations: ActiveCampaign, Kit, Zapier (email & Zapier integrations only)
+    api_access: false
+  - name: Growth
+    price: 116
+    currency: USD
+    period: month
+    billing: monthly
+    positioning: Turn one live webinar into a funnel that sells and follows up 24/7.
+    quotas:
+      live_attendees_per_session: 200
+      automated_viewers_per_session: 1000
+      ai_funnels_per_month: 5
+      ai_credits_per_month: 500
+      total_webinars: 10
+      live_session_duration_hours: 4
+      easycast_destinations: 3
+    integrations: 13 CRM & email integrations
+    api_access: false
+  - name: Pro
+    price: 198
+    currency: USD
+    period: month
+    billing: monthly
+    most_popular: true
+    positioning: Scale demos and lead gen with follow-up that lives in your EasyCRM.
+    quotas:
+      live_attendees_per_session: 500
+      automated_viewers_per_session: 2500
+      ai_funnels_per_month: 10
+      ai_credits_per_month: 1000
+      total_webinars: 15
+      live_session_duration_hours: 4
+      easycast_destinations: 10
+    integrations: 13 CRM & email, plus native HubSpot & Salesforce sync
+    api_access: false
+  - name: Scale
+    price: 349
+    currency: USD
+    period: month
+    billing: monthly
+    positioning: Run high-volume, multi-team webinar programmes across regions.
+    quotas:
+      live_attendees_per_session: 1000
+      automated_viewers_per_session: 5000
+      ai_funnels_per_month: 20
+      ai_credits_per_month: 2000
+      total_webinars: 20
+      live_session_duration_hours: 4
+      easycast_destinations: 10
+    integrations: Same as Pro, plus full API & webhooks for custom builds
+    api_access: true
+    api_access_quote: SSO/SAML, API access & white labelling
+  - name: Enterprise
+    price: null
+    currency: USD
+    period: null
+    billing: contact sales / custom terms
+    positioning: >-
+      Enterprise webinar hosting with SSO, API, custom compliance, or up to 100,000 live
+      attendees — contact sales.
+    quotas:
+      live_attendees_per_session: 100000
+    api_access: true
+    extras:
+      - SAML 2.0 SSO / SCIM provisioning
+      - Two-factor authentication enforcement
+      - Named uptime SLA (terms per contract)
+      - Sandbox access and solutions-engineering integration support
+      - SOC 2 Type II report available under NDA
+    source: https://easywebinar.com/enterprise/
+overage: >-
+  Not published. The pricing page states caps per tier but no overage rate; exceeding a tier
+  is handled as an upgrade prompt rather than a metered charge.
+x-evidence:
+  - url: https://easywebinar.com/pricing/
+    status: 200
+  - url: https://easywebinar.com/enterprise/
+    status: 200

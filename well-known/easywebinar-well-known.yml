@@ -1,0 +1,79 @@
+generated: '2026-08-12'
+method: probed
+source: https://app.easywebinar.com/.well-known/openid-configuration
+note: >-
+  Probed every EasyWebinar host found on the public surface. The marketing host
+  (easywebinar.com, WordPress) 404s every /.well-known/ path. The application host
+  (app.easywebinar.com) serves a real OpenID Connect discovery document, the RFC 8414
+  authorization-server metadata (identical body), and a JWKS — this is the only
+  machine-readable API contract EasyWebinar publishes anonymously. The support host is a
+  hosted Intercom help center; the security.txt it returns is INTERCOM'S OWN document
+  (Canonical: https://app.intercom.com/.well-known/security.txt), not EasyWebinar's, so it
+  is recorded here for the record but earns no SecurityTxt pointer.
+hosts:
+  - host: https://app.easywebinar.com
+    documents:
+      - path: /.well-known/openid-configuration
+        status: 200
+        content_type: application/json
+        file: easywebinar-openid-configuration.json
+      - path: /.well-known/oauth-authorization-server
+        status: 200
+        content_type: application/json
+        file: easywebinar-oauth-authorization-server.json
+        note: byte-identical to the openid-configuration document
+      - path: /.well-known/keys/
+        status: 200
+        content_type: application/json
+        file: easywebinar-jwks.json
+        note: >-
+          jwks_uri named by the discovery document; returns one RS256 signing key whose
+          n and e members are served EMPTY strings, so the published key material cannot
+          actually be used to verify an id_token. Recorded as observed.
+      - path: /.well-known/security.txt
+        status: 400
+      - path: /.well-known/api-catalog
+        status: 400
+      - path: /.well-known/ai-plugin.json
+        status: 400
+      - path: /.well-known/agent-card.json
+        status: 400
+      - path: /.well-known/agent.json
+        status: 400
+      - path: /.well-known/oauth-protected-resource
+        status: 400
+  - host: https://easywebinar.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+  - host: https://support.easywebinar.com
+    note: hosted Intercom help center; third-party infrastructure
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        content_type: text/plain
+        file: null
+        third_party: intercom
+        note: >-
+          Intercom's own security.txt, served by the help-center vendor. Canonical points
+          at app.intercom.com. NOT an EasyWebinar disclosure policy — no SecurityTxt or
+          Security pointer emitted from it.
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+x-evidence:
+  fetched: '2026-08-12'
+  probes: 33

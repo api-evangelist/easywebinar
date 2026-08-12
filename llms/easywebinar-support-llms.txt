@@ -1,0 +1,154 @@
+# EasyWebinar
+
+> Here You Can Navigate Through All The Different Training We Have To Make You An EasyWebinar Expert.
+
+## Live Webinars
+
+- [How to Create a Live Webinar](https://support.easywebinar.com/en/articles/6986079-how-to-create-a-live-webinar.md)
+- [Live Webinar Overview Section](https://support.easywebinar.com/en/articles/12841279-live-webinar-overview-section.md): The live webinar overview section provides a complete snapshot of your webinar’s performance and scheduling settings. From here, you can view visitor and registration data, manage your schedule, up...
+- [Walkthrough of the "Customize" Section for Live Webinars](https://support.easywebinar.com/en/articles/12847169-walkthrough-of-the-customize-section-for-live-webinars.md): EasyWebinar’s Customize section equips you with everything you need to tailor your webinar pages, interactivity tools, and viewer experience—all in one organized space.
+- [Understanding the “Promote & Share” Section for Live Webinars](https://support.easywebinar.com/en/articles/12844301-understanding-the-promote-share-section-for-live-webinars.md): Promoting your webinar is just as important as delivering great content. The Promote & Share section provides all the key links and tools you need to boost attendance, simplify access, and share yo...
+- [How to add presenters, co hosts, moderators names and get details](https://support.easywebinar.com/en/articles/6986071-how-to-add-presenters-co-hosts-moderators-names-and-get-details.md)
+- [How to Set Up Replay Functionality for Live Webinars](https://support.easywebinar.com/en/articles/12843895-how-to-set-up-replay-functionality-for-live-webinars.md): Hosting a live webinar is just the beginning of your engagement journey. One of the most powerful ways to extend the reach of your content and continue converting attendees is through webinar replays.
+- [Difference between Co-hosts and Moderators](https://support.easywebinar.com/en/articles/6986085-difference-between-co-hosts-and-moderators.md)
+- [Welcome to the New Live Room: Your Ultimate Interactive Experience!](https://support.easywebinar.com/en/articles/9929855-welcome-to-the-new-live-room-your-ultimate-interactive-experience.md)
+- [How to Bring an Attendee On Screen \(Make Them a Co-Host\)](https://support.easywebinar.com/en/articles/12788035-how-to-bring-an-attendee-on-screen-make-them-a-co-host.md): You can allow an attendee to speak and appear on camera during a Live Webinar by making them a Co-Host. Once promoted to Co-Host, they will have microphone and camera access and can actively partic...
+- [How to Share a Video Directly from Your Device's Local Storage](https://support.easywebinar.com/en/articles/9962731-how-to-share-a-video-directly-from-your-device-s-local-storage.md): In this tutorial, we’ll guide you through the process of sharing a video directly from your device’s local storage! Let’s get started. 🚀
+- [New Live Room Features and Screen Sharing Guide](https://support.easywebinar.com/en/articles/9940115-new-live-room-features-and-screen-sharing-guide.md)
+- [Adding Virtual Backgrounds during Live Events](https://support.easywebinar.com/en/articles/12540096-adding-virtual-backgrounds-during-live-events.md): Virtual Backgrounds for Live Events — Make Every Moment On Brand
+- [Introducing EasyCast: Stream Your Webinars to Multiple Platforms with EasyWebinar](https://support.easywebinar.com/en/articles/12278439-introducing-easycast-stream-your-webinars-to-multiple-platforms-with-easywebinar.md): EasyCast lets you live stream your webinars to multiple platforms at once, starting with YouTube and now including Custom RTMP \(with LinkedIn, Facebook, and Instagram coming soon\).
+- [Design Your Perfect Webinar: New Liveroom Layouts & Branding Features Are Here!](https://support.easywebinar.com/en/articles/12326181-design-your-perfect-webinar-new-liveroom-layouts-branding-features-are-here.md): Whether you're spotlighting a speaker, sharing slides, or switching between panelists, you can now choose the perfect layout to deliver a polished, professional webinar experience.
+- [Introducing the New “Spotlight” Feature in the Live Room](https://support.easywebinar.com/en/articles/12232572-introducing-the-new-spotlight-feature-in-the-live-room.md): We're excited to share the new Spotlight feature in the Live Room—designed to make your presentations more dynamic and engaging!
+- [Live Room: Resolving Playback Errors for Videos in Your Webinar](https://support.easywebinar.com/en/articles/10214031-live-room-resolving-playback-errors-for-videos-in-your-webinar.md): Playback Errors for Videos in Your Webinar
+- [How to Share A File during a Live Event](https://support.easywebinar.com/en/articles/9981087-how-to-share-a-file-during-a-live-event.md)
+- [How to Share Presentations and Videos Using Google Slides](https://support.easywebinar.com/en/articles/9965541-how-to-share-presentations-and-videos-using-google-slides.md)
+- [Introducing the Q&A Feature in the Live Webinar Room](https://support.easywebinar.com/en/articles/13947683-introducing-the-q-a-feature-in-the-live-webinar-room.md): Engagement plays a critical role in the success of any live webinar. To help hosts interact more effectively with their audience and manage questions more efficiently, EasyWebinar has introduced a ...
+- [How to Use the Multi-Language Feature in the Live Webinar Room](https://support.easywebinar.com/en/articles/15193841-how-to-use-the-multi-language-feature-in-the-live-webinar-room.md): EasyWebinar now supports a Multi-Language feature for Live Webinars, allowing you to customize the language of the Live Room interface, including buttons, labels, and prompts, for a more localized ...
+
+## Simulated Live 
+
+- [Simulive Webinar Overview Section](https://support.easywebinar.com/en/articles/12841587-simulive-webinar-overview-section.md): The Simulive Webinar Overview gives you full control over your webinar’s schedule, registration display, and performance, letting you manage and review everything in one place.
+- [How to change the Simulive webinar's time zone setting](https://support.easywebinar.com/en/articles/6986086-how-to-change-the-simulive-webinar-s-time-zone-setting.md)
+- [Add or edit title or tags to search and filter events](https://support.easywebinar.com/en/articles/6986068-add-or-edit-title-or-tags-to-search-and-filter-events.md)
+- [Simulated Live Schedule / Settings options](https://support.easywebinar.com/en/articles/6986088-simulated-live-schedule-settings-options.md)
+- [Walkthrough of the "Customize" Section for Simulive Webinars](https://support.easywebinar.com/en/articles/12847270-walkthrough-of-the-customize-section-for-simulive-webinars.md): EasyWebinar’s Customize section gives you full control to design your pages, add engagement tools, manage chat options, and optimize every stage of your simulive event.
+
+## Evergreen Webinars 
+
+- [Evergreen Webinar Overview](https://support.easywebinar.com/en/articles/12841681-evergreen-webinar-overview.md): The Evergreen Webinar Overview Explains How To Start Using The Features, Schedule Options, Chat Options, And More.
+- [Walkthrough of the "Customize" Section for Evergreen Webinars](https://support.easywebinar.com/en/articles/12847340-walkthrough-of-the-customize-section-for-evergreen-webinars.md): Setting up an Evergreen webinar goes far beyond uploading a video. To deliver a seamless, high-converting attendee experience, you need to customize every touchpoint—from the registration page all ...
+
+## Start Your Journey Here
+
+- [What Is A Webinar Funnel?](https://support.easywebinar.com/en/articles/1332602-what-is-a-webinar-funnel.md)
+- [Understanding the webinar types](https://support.easywebinar.com/en/articles/6986064-understanding-the-webinar-types.md)
+- [Webinar Creation](https://support.easywebinar.com/en/articles/5602751-webinar-creation.md): Set up a webinar : Live, Simulive or Evergreen
+- [How to create a webinar](https://support.easywebinar.com/en/articles/6986066-how-to-create-a-webinar.md)
+- [Library Overview](https://support.easywebinar.com/en/articles/6986123-library-overview.md)
+- [Edit an existing webinar](https://support.easywebinar.com/en/articles/6986069-edit-an-existing-webinar.md)
+- [Create presentation in Canva for free](https://support.easywebinar.com/en/articles/6986121-create-presentation-in-canva-for-free.md)
+- [Cant find or locate your webinar?](https://support.easywebinar.com/en/articles/6986076-cant-find-or-locate-your-webinar.md)
+- [People's section - main attendees list of all webinars](https://support.easywebinar.com/en/articles/6986124-people-s-section-main-attendees-list-of-all-webinars.md)
+- [Upload a presentation for your live event screen share](https://support.easywebinar.com/en/articles/6986122-upload-a-presentation-for-your-live-event-screen-share.md)
+- [Create a test Live event to test and or rehearse or even to create a recording](https://support.easywebinar.com/en/articles/6986080-create-a-test-live-event-to-test-and-or-rehearse-or-even-to-create-a-recording.md)
+- [How to Set Up Google Tag Manager and Integrate It with EasyWebinar](https://support.easywebinar.com/en/articles/9636186-how-to-set-up-google-tag-manager-and-integrate-it-with-easywebinar.md)
+- [How to Add Meta Pixel Code to Your EasyWebinar Pages](https://support.easywebinar.com/en/articles/9631338-how-to-add-meta-pixel-code-to-your-easywebinar-pages.md)
+- [How to generate MP4 URL link from Amazon S3 and upload the same inside EasyWebinar](https://support.easywebinar.com/en/articles/9636201-how-to-generate-mp4-url-link-from-amazon-s3-and-upload-the-same-inside-easywebinar.md)
+- [EasyWebinar Subscription Usage and Limits](https://support.easywebinar.com/en/articles/9700190-easywebinar-subscription-usage-and-limits.md)
+- [EasyWebinar Product Tour](https://support.easywebinar.com/en/articles/10742063-easywebinar-product-tour.md): Explore EasyWebinar with our guided product tour, designed to showcase its key features and help you get started quickly!
+- [EasyWebinar Dashboard Overview](https://support.easywebinar.com/en/articles/12829861-easywebinar-dashboard-overview.md): This article provides a quick guide to the Overview Section in your EasyWebinar Dashboard. The Overview page gives you a snapshot of your account details, subscription status, and access to helpful...
+- [People Section Overview](https://support.easywebinar.com/en/articles/12831011-people-section-overview.md)
+- [How to Delete Registration Details in EasyWebinar](https://support.easywebinar.com/en/articles/16011670-how-to-delete-registration-details-in-easywebinar.md): If you'd like to remove one or more registrants from your EasyWebinar account, you can do so directly from the Global People section.
+
+## Overview
+
+- [How to edit or change the webinar schedule date / time\(s\)](https://support.easywebinar.com/en/articles/6986073-how-to-edit-or-change-the-webinar-schedule-date-time-s.md)
+- [How to block holidays or important dates using blackout dates](https://support.easywebinar.com/en/articles/6986072-how-to-block-holidays-or-important-dates-using-blackout-dates.md)
+- [How to add presenter or co host bio info to registration page?](https://support.easywebinar.com/en/articles/6986092-how-to-add-presenter-or-co-host-bio-info-to-registration-page.md)
+- [How to Set Up Just-In-Time Webinars and Instant Replays](https://support.easywebinar.com/en/articles/6986089-how-to-set-up-just-in-time-webinars-and-instant-replays.md)
+- [Evergreen Webinar time zone setting](https://support.easywebinar.com/en/articles/6986091-evergreen-webinar-time-zone-setting.md)
+- [How to Export Live Chat in Simulated Chat Format for Evergreen Webinars](https://support.easywebinar.com/en/articles/10304449-how-to-export-live-chat-in-simulated-chat-format-for-evergreen-webinars.md)
+- [Automated Webinar Overview Section](https://support.easywebinar.com/en/articles/12841529-automated-webinar-overview-section.md)
+- [How to Upload and Use Videos in EasyWebinar for Simulive and Evergreen Webinars](https://support.easywebinar.com/en/articles/14450167-how-to-upload-and-use-videos-in-easywebinar-for-simulive-and-evergreen-webinars.md): This guide walks you through how to upload a video directly to EasyWebinar and use it across Simulive, Evergreen, and even Live webinars.
+
+## Customize
+
+- [How to create an offer](https://support.easywebinar.com/en/articles/6986105-how-to-create-an-offer.md)
+- [How to add a poll](https://support.easywebinar.com/en/articles/6986107-how-to-add-a-poll.md)
+- [How to edit an existing offer or poll](https://support.easywebinar.com/en/articles/6986106-how-to-edit-an-existing-offer-or-poll.md)
+- [How to create a CTA or call to action](https://support.easywebinar.com/en/articles/6986104-how-to-create-a-cta-or-call-to-action.md)
+- [How to add video into your automated simulive webinar](https://support.easywebinar.com/en/articles/6986087-how-to-add-video-into-your-automated-simulive-webinar.md)
+- [How to add video into your Evergreen webinar](https://support.easywebinar.com/en/articles/6986090-how-to-add-video-into-your-evergreen-webinar.md)
+- [Chat settings for your webinar](https://support.easywebinar.com/en/articles/6986070-chat-settings-for-your-webinar.md)
+- [Redirect viewers immediately after the webinar ends](https://support.easywebinar.com/en/articles/6986077-redirect-viewers-immediately-after-the-webinar-ends.md)
+- [Redirect to a custom page when the webinar session has expired and over](https://support.easywebinar.com/en/articles/6986078-redirect-to-a-custom-page-when-the-webinar-session-has-expired-and-over.md)
+- [How to Use the Clone Webinar Feature ?](https://support.easywebinar.com/en/articles/10153300-how-to-use-the-clone-webinar-feature.md): The Clone Webinar feature in V2 allows users to duplicate webinars quickly and efficiently. This feature provides flexibility by letting users choose which webinar components they want to clone. Be...
+- [How to Enable Q&A and Live Chat in Simulive Webinars](https://support.easywebinar.com/en/articles/12787784-how-to-enable-q-a-and-live-chat-in-simulive-webinars.md)
+- [How to Simulate Chat in Evergreen Webinars](https://support.easywebinar.com/en/articles/12787873-how-to-simulate-chat-in-evergreen-webinars.md)
+- [How to Add Custom Fields to an EasyWebinar Registration Page and Embed Widget](https://support.easywebinar.com/en/articles/14045942-how-to-add-custom-fields-to-an-easywebinar-registration-page-and-embed-widget.md): This guide walks you through how to add and manage custom fields in your EasyWebinar registration page, including enabling the phone number field and creating additional custom fields.
+
+## Page Builder
+
+- [Scheduling Options for Webinars](https://support.easywebinar.com/en/articles/6986119-scheduling-options-for-webinars.md)
+- [Social sharing \(open graph\) Meta settings](https://support.easywebinar.com/en/articles/6986115-social-sharing-open-graph-meta-settings.md)
+- [How to rename your webinar / funnel pages / urls](https://support.easywebinar.com/en/articles/6986116-how-to-rename-your-webinar-funnel-pages-urls.md)
+- [Knowing the page-builder menu options](https://support.easywebinar.com/en/articles/6986100-knowing-the-page-builder-menu-options.md)
+- [Page builder 102 - Page settings](https://support.easywebinar.com/en/articles/6986098-page-builder-102-page-settings.md)
+- [Page builder 101 - what do the colored outlines mean or what are they for?](https://support.easywebinar.com/en/articles/6986099-page-builder-101-what-do-the-colored-outlines-mean-or-what-are-they-for.md)
+- [How to customize button pop up?](https://support.easywebinar.com/en/articles/6986096-how-to-customize-button-pop-up.md)
+- [How to customize landing pages or change template design](https://support.easywebinar.com/en/articles/6986097-how-to-customize-landing-pages-or-change-template-design.md)
+- [How do I add an image to the page?](https://support.easywebinar.com/en/articles/6986094-how-do-i-add-an-image-to-the-page.md)
+- [How to add a video or past live recording to any webinar funnel page?](https://support.easywebinar.com/en/articles/6986095-how-to-add-a-video-or-past-live-recording-to-any-webinar-funnel-page.md)
+- [How to edit the opt in registration form on my registration page?](https://support.easywebinar.com/en/articles/6986093-how-to-edit-the-opt-in-registration-form-on-my-registration-page.md)
+- [How To Save Your Page As A Template](https://support.easywebinar.com/en/articles/8500340-how-to-save-your-page-as-a-template.md): Cloning a page to use in a new webinar of any type. You can save registration, thank you, and waiting pages as a template
+- [🧭 How to Update Browser Titles on Your EasyWebinar Registration and Thank You Pages](https://support.easywebinar.com/en/articles/12788726-how-to-update-browser-titles-on-your-easywebinar-registration-and-thank-you-pages.md): Maintaining professional and consistent webinar pages starts with small details—like your browser title. This text appears on the browser tab and helps keep your branding and messaging aligned acro...
+- [Adding a Personal Touch to Your Webinars: How to Add Your Own Favicon Image.](https://support.easywebinar.com/en/articles/7002203-adding-a-personal-touch-to-your-webinars-how-to-add-your-own-favicon-image.md): Article covers how to add a favicon to your webinar pages browser tab. Doing this makes your webinars look cooler and different from others.
+
+## Promote & Share
+
+- [Where can I find or locate my links/urls to use](https://support.easywebinar.com/en/articles/6986117-where-can-i-find-or-locate-my-links-urls-to-use.md)
+- [A Step-by-Step Guide to Customizing the EasyWebinar Widget](https://support.easywebinar.com/en/articles/10715246-a-step-by-step-guide-to-customizing-the-easywebinar-widget.md): In this tutorial, we’ll walk you through the process of customizing the EasyWebinar widget, allowing you to personalize the look and feel of your registration forms to better match your branding an...
+- [Adding a CNAME record\(CloudFlare\)](https://support.easywebinar.com/en/articles/12578283-adding-a-cname-record-cloudflare.md): Add a CNAME record in Cloudflare
+- [🔗 How to Use the One-Click Registration Link in EasyWebinar](https://support.easywebinar.com/en/articles/12811691-how-to-use-the-one-click-registration-link-in-easywebinar.md): If you’re looking for a seamless way to register your audience for your webinars—without asking them to fill out the registration form every time—the One-Click Registration Link in EasyWebinar is t...
+
+## Webinar Notifications
+
+- [Setting up your welcome email](https://support.easywebinar.com/en/articles/6986103-setting-up-your-welcome-email.md)
+- [Setting up your webinar email-notifications](https://support.easywebinar.com/en/articles/6986102-setting-up-your-webinar-email-notifications.md)
+- [Understanding the Email functionality - Timing, styles, shortcodes](https://support.easywebinar.com/en/articles/6986101-understanding-the-email-functionality-timing-styles-shortcodes.md)
+- [📧 How to Use the “Send Test Email” Feature in EasyWebinar](https://support.easywebinar.com/en/articles/12166015-how-to-use-the-send-test-email-feature-in-easywebinar.md)
+- [How to Create Pre-Webinar Notifications?](https://support.easywebinar.com/en/articles/12829527-how-to-create-pre-webinar-notifications.md): This article explains how to create and customize Pre-Webinar Notifications in EasyWebinar. These notifications are designed to keep your registrants informed and engaged before the event begins.
+- [How to Create Post-Webinar Notifications?](https://support.easywebinar.com/en/articles/12847383-how-to-create-post-webinar-notifications.md): Post-webinar email communication plays a critical role in driving engagement, boosting conversions, and nurturing your audience long after the event ends.
+- [How to Add Images to Emails in the EasyWebinar Email Builder](https://support.easywebinar.com/en/articles/13492052-how-to-add-images-to-emails-in-the-easywebinar-email-builder.md): This guide walks you through the process of adding images to your emails using the EasyWebinar Email Builder.
+
+## Integration
+
+- [Integration \(Webinar Fields / Custom Fields\)](https://support.easywebinar.com/en/articles/6986113-integration-webinar-fields-custom-fields.md)
+- [How to add your integration into your webinar.](https://support.easywebinar.com/en/articles/6986114-how-to-add-your-integration-into-your-webinar.md)
+- [What can you connect and integrate into EasyWebinar and what functions do they have](https://support.easywebinar.com/en/articles/6986111-what-can-you-connect-and-integrate-into-easywebinar-and-what-functions-do-they-have.md)
+- [Setting up Webinar Tags and the flow in which they get applied](https://support.easywebinar.com/en/articles/6986112-setting-up-webinar-tags-and-the-flow-in-which-they-get-applied.md)
+- [Go HighLevel Integration](https://support.easywebinar.com/en/articles/8380391-go-highlevel-integration.md): Integrate your webinars with Go HighLevel using tags \#GoHighLevel \#HighLevel \#app.gohighlevel.com \#high level
+- [Integrating ConvertKit to EasyWebinar](https://support.easywebinar.com/en/articles/9143150-integrating-convertkit-to-easywebinar.md)
+- [Integrating Active Campaign With EasyWebinar](https://support.easywebinar.com/en/articles/9123833-integrating-active-campaign-with-easywebinar.md): Active Campaign is one of the major integration tools on EasyWebinar. We will discuss creating tags, and fields, and the process of syncing Active Campaign data to EasyWebinar.
+- [Maximizing Your Webinar Replays with ConvertKit: A Step-by-Step Guide](https://support.easywebinar.com/en/articles/9781316-maximizing-your-webinar-replays-with-convertkit-a-step-by-step-guide.md)
+- [A Step-by-Step Guide to Adding Tags in HubSpot from EasyWebinar](https://support.easywebinar.com/en/articles/10079360-a-step-by-step-guide-to-adding-tags-in-hubspot-from-easywebinar.md)
+- [Integrating EasyWebinar with Flodesk using Zapier](https://support.easywebinar.com/en/articles/11049213-integrating-easywebinar-with-flodesk-using-zapier.md)
+- [How to Set Up SMS Integration with Twilio Using EasyWebinar](https://support.easywebinar.com/en/articles/12755417-how-to-set-up-sms-integration-with-twilio-using-easywebinar.md): This guide explains how to set up an SMS integration with Twilio to send registration details and automated reminders before a webinar hosted on EasyWebinar.
+- [How to Stream Your EasyWebinar Live Event to Facebook](https://support.easywebinar.com/en/articles/12788866-how-to-stream-your-easywebinar-live-event-to-facebook.md): Looking to expand your reach by streaming your EasyWebinar live event directly to Facebook? This quick tutorial walks you through how to set up a custom RTMP connection to broadcast your webinar to...
+- [🔗 How to Integrate EasyWebinar with Ontraport: Step-by-Step Guide](https://support.easywebinar.com/en/articles/12789051-how-to-integrate-easywebinar-with-ontraport-step-by-step-guide.md): Connecting EasyWebinar with Ontraport allows you to seamlessly manage your leads, automate your marketing, and tag your registrants based on their behavior — all without manual work.
+- [EasyCRM Integration with EasyWebinar \(Native CRM\)](https://support.easywebinar.com/en/articles/12943379-easycrm-integration-with-easywebinar-native-crm.md): How to integrate EasyWebinar with EasyCRM
+
+## Replay Page
+
+- [Replay page expiration settings](https://support.easywebinar.com/en/articles/6986109-replay-page-expiration-settings.md)
+- [Replay content settings, build custom replay page](https://support.easywebinar.com/en/articles/6986108-replay-content-settings-build-custom-replay-page.md)
+- [Enable replay page for those that did not attend webinar](https://support.easywebinar.com/en/articles/6986110-enable-replay-page-for-those-that-did-not-attend-webinar.md)
+
+## Webinar Analytics
+
+- [Webinar Analytics](https://support.easywebinar.com/en/articles/6986118-webinar-analytics.md)
+- [Understanding Your EasyWebinar Analytics Dashboard](https://support.easywebinar.com/en/articles/12841812-understanding-your-easywebinar-analytics-dashboard.md): When you’re running webinars, data isn’t just helpful—it's essential. EasyWebinar’s built-in analytics give you a clear, detailed view of how your webinar is performing at every stage, from registr...
+
+## Admin Centre
+
+- [How to Cancel Your EasyWebinar Subscription](https://support.easywebinar.com/en/articles/15070910-how-to-cancel-your-easywebinar-subscription.md): This guide walks you through the complete process of canceling your EasyWebinar subscription, along with alternative options you may want to consider before proceeding.

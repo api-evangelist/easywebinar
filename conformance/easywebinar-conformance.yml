@@ -1,0 +1,97 @@
+generated: '2026-08-12'
+method: probed
+source: https://app.easywebinar.com/.well-known/openid-configuration
+note: >-
+  Asserted only from documents EasyWebinar actually serves. There is no OpenAPI, so every
+  spec-derived standard below is recorded as unknown rather than false where absence could
+  not be observed.
+standards:
+  - id: oauth2
+    conforms: true
+    evidence: >-
+      Live RFC 6749 authorization server at app.easywebinar.com — /oauth/authorize/,
+      /oauth/token/, /oauth/revoke/, /oauth/introspection/ all respond with RFC 6749
+      error objects to anonymous probes.
+  - id: oidc-core
+    conforms: true
+    evidence: >-
+      /.well-known/openid-configuration returns a complete OIDC discovery document
+      (issuer, authorization/token/userinfo/jwks endpoints, RS256 id_token signing).
+  - id: rfc8414-authorization-server-metadata
+    conforms: true
+    evidence: /.well-known/oauth-authorization-server returns 200 with the metadata document.
+  - id: rfc7662-token-introspection
+    conforms: true
+    evidence: introspection_endpoint advertised and live at /oauth/introspection/.
+  - id: rfc7009-token-revocation
+    conforms: true
+    evidence: revocation_endpoint advertised and live at /oauth/revoke/.
+  - id: rfc7591-dynamic-client-registration
+    conforms: false
+    evidence: registration_endpoint is explicitly null in the discovery document.
+  - id: rfc7636-pkce
+    conforms: unknown
+    evidence: >-
+      code_challenge_methods_supported is absent from the discovery document; support is
+      neither advertised nor refutable anonymously.
+  - id: saml2
+    conforms: true
+    evidence: >-
+      "EasyWebinar Enterprise supports SAML 2.0 single sign-on" — https://easywebinar.com/enterprise/
+  - id: scim
+    conforms: true
+    evidence: >-
+      "SSO / SAML / SCIM — Enterprise identity, access, and user provisioning support"
+      — https://easywebinar.com/enterprise/
+  - id: soc2-type-ii
+    conforms: true
+    evidence: >-
+      "EasyWebinar Enterprise is SOC 2 Type II certified, audited by Scrut Automation. The
+      latest audit report is available to qualified prospects under NDA."
+      — https://easywebinar.com/enterprise/ and https://easywebinar.com/pricing/
+  - id: gdpr
+    conforms: true
+    evidence: >-
+      GDPR page and Data Processing Addendum published — https://easywebinar.com/gdpr/,
+      https://easywebinar.com/data-processing-addendum/
+  - id: iso-27001
+    conforms: false
+    evidence: not claimed anywhere on the public surface
+  - id: hipaa
+    conforms: false
+    evidence: not claimed anywhere on the public surface
+  - id: pci-dss
+    conforms: false
+    evidence: >-
+      Not claimed. Checkout is handled through Stripe, PayPal, Braintree, SamCart,
+      ThriveCart, ClickBank and JVZoo rather than by EasyWebinar directly.
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: >-
+      The observable API surface returns RFC 6749 OAuth error objects
+      ({error, error_description, error_uri}), not application/problem+json.
+  - id: openapi
+    conforms: false
+    evidence: >-
+      No OpenAPI/Swagger document at any host root, docs host or well-known path
+      (33 probes, all 400/404).
+  - id: asyncapi
+    conforms: false
+    evidence: no AsyncAPI document published; webhooks are advertised but not catalogued
+certifications:
+  - name: SOC 2 Type II
+    auditor: Scrut Automation
+    availability: report under NDA via enterprise sales
+    source: https://easywebinar.com/enterprise/
+  - name: GDPR
+    availability: public policy pages
+    source: https://easywebinar.com/gdpr/
+x-evidence:
+  - url: https://app.easywebinar.com/.well-known/openid-configuration
+    status: 200
+  - url: https://easywebinar.com/enterprise/
+    status: 200
+  - url: https://easywebinar.com/gdpr/
+    status: 200
+  - url: https://easywebinar.com/pricing/
+    status: 200

@@ -1,9 +1,20 @@
 aid: easywebinar
 name: EasyWebinar
-description: EasyWebinar is a company surfaced via the API Evangelist marketing integration graph — named
-  as an integration by 2 members of the programmable-marketing cohort — and added to the network as a
-  stub for full-pipeline profiling.
+description: >-
+  EasyWebinar is a live and automated webinar platform for course creators, marketers,
+  coaches and enterprise teams, combining live webinars, automated/simulive and evergreen
+  webinars, an AI webinar funnel builder, EasyCast multistreaming to YouTube, LinkedIn,
+  Facebook and custom RTMP destinations, built-in checkout for paid webinars, and Easy Suite
+  — a native CRM with lead scoring, email sequences and automated follow-up. The platform
+  scales to 100,000 live attendees on Dolby OptiView (Millicast) WebRTC infrastructure and
+  is SOC 2 Type II certified (audited by Scrut Automation) with GDPR controls, SAML 2.0 SSO
+  and SCIM provisioning on the Enterprise tier. EasyWebinar publicly serves an OAuth 2.0 /
+  OpenID Connect authorization server at app.easywebinar.com and markets a REST API and
+  webhooks covering registration, attendance, lead data, CRM sync and event lifecycle
+  events — but that API is a Scale-plan and Enterprise entitlement, and no public reference,
+  OpenAPI or webhook catalogue is published.
 url: https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/apis.yml
+image: https://easywebinar.com/images/og-image.png
 x-type: company
 x-source: harvest:marketing-integration-graph
 x-tier: stub
@@ -13,16 +24,108 @@ created: '2026-08-12'
 modified: '2026-08-12'
 tags:
 - Company
-apis: []
+- Webinars
+- Video
+- Live Streaming
+- Marketing
+- Events
+- CRM
+- Lead Generation
+- Automation
+- Identity
+- OAuth
+- SaaS
+apis:
+- name: EasyWebinar OAuth 2.0 / OpenID Connect
+  description: >-
+    The only anonymously reachable, machine-readable EasyWebinar API surface. The
+    application host publishes a complete OpenID Connect discovery document and RFC 8414
+    authorization-server metadata, with live authorize, token, userinfo, introspection and
+    revocation endpoints. Scopes advertised are openid, profile, email and basic. Dynamic
+    client registration is disabled, so clients are provisioned out of band.
+  humanURL: https://easywebinar.com/enterprise/
+  baseURL: https://app.easywebinar.com
+  tags:
+  - OAuth
+  - OpenID Connect
+  - Identity
+  - Authentication
+  properties:
+  - type: Authentication
+    url: authentication/easywebinar-authentication.yml
+  - type: OAuthScopes
+    url: scopes/easywebinar-scopes.yml
+  - type: ErrorCatalog
+    url: errors/easywebinar-problem-types.yml
+  - type: WellKnown
+    url: well-known/easywebinar-well-known.yml
+  - type: OpenIDConnect
+    url: https://app.easywebinar.com/.well-known/openid-configuration
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/easywebinar-domain-security.yml
 - type: Website
   url: https://easywebinar.com/
+- type: Documentation
+  url: https://support.easywebinar.com/en/
+- type: Support
+  url: https://support.easywebinar.com/en/
+- type: Blog
+  url: https://easywebinar.com/blog/
+- type: Pricing
+  url: https://easywebinar.com/pricing/
+- type: SignUp
+  url: https://easywebinar.com/pricing/
+- type: Login
+  url: https://app.easywebinar.com/login
+- type: TermsOfService
+  url: https://easywebinar.com/terms-conditions/
+- type: PrivacyPolicy
+  url: https://easywebinar.com/privacy/
+- type: Compliance
+  url: https://easywebinar.com/enterprise/
+- type: Plans
+  url: plans/easywebinar-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/easywebinar-rate-limits.yml
+- type: Authentication
+  url: authentication/easywebinar-authentication.yml
+- type: OAuthScopes
+  url: scopes/easywebinar-scopes.yml
+- type: WellKnown
+  url: well-known/easywebinar-well-known.yml
+- type: Conformance
+  url: conformance/easywebinar-conformance.yml
+- type: Lifecycle
+  url: lifecycle/easywebinar-lifecycle.yml
+- type: ErrorCatalog
+  url: errors/easywebinar-problem-types.yml
+- type: Packages
+  url: packages/easywebinar-packages.yml
+- type: Webhooks
+  url: asyncapi/easywebinar-webhooks.yml
+- type: LLMsTxt
+  url: llms/easywebinar-llms.txt
 x-vouched-by:
 - Drip
 - Ontraport
 x-vouch-count: 2
+x-api-access-gate: >-
+  EasyWebinar markets a REST API and webhooks (registration, attendance, lead data, CRM
+  sync, event lifecycle) on https://easywebinar.com/enterprise/, but API access is a paid
+  entitlement that first appears on the Scale plan ($349/mo) and Enterprise, and sandbox
+  access is Enterprise-only. No public API reference, OpenAPI, webhook catalogue or
+  developer portal exists — 33 anonymous probes across easywebinar.com,
+  app.easywebinar.com and support.easywebinar.com returned no specification. The OAuth 2.0
+  / OpenID Connect authorization server at app.easywebinar.com is the only machine-readable
+  contract the company publishes anonymously.
+x-enrichment:
+  date: '2026-08-12'
+  status: enriched
+  artifacts_added: 16
+  pass: local-v1
