@@ -1,0 +1,14 @@
+{
+  "repo": "easywebinar",
+  "feeds": [
+    {
+      "source": "https://support.easywebinar.com/en/",
+      "feed_url": "https://support.easywebinar.com/en/feed.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-15T12:22:01Z"
+}
