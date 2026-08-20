@@ -28,6 +28,19 @@ tags:
 - Video
 - Live Streaming
 - Marketing
+- Event
+- CRM
+- Lead Generation
+- Automation
+- Identity
+- Authentication
+- Software-as-a-Service
+tags_raw:
+- Company
+- Webinars
+- Video
+- Live Streaming
+- Marketing
 - Events
 - CRM
 - Lead Generation
@@ -46,6 +59,10 @@ apis:
   humanURL: https://easywebinar.com/enterprise/
   baseURL: https://app.easywebinar.com
   tags:
+  - Authentication
+  - OpenID Connect
+  - Identity
+  tags_raw:
   - OAuth
   - OpenID Connect
   - Identity
