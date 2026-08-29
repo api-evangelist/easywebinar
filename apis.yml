@@ -14,6 +14,17 @@ description: >-
   events — but that API is a Scale-plan and Enterprise entitlement, and no public reference,
   OpenAPI or webhook catalogue is published.
 url: https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://easywebinar.com/images/og-image.png
 x-type: company
 x-source: harvest:marketing-integration-graph
