@@ -1,18 +1,15 @@
 aid: easywebinar
 name: EasyWebinar
-description: >-
-  EasyWebinar is a live and automated webinar platform for course creators, marketers,
-  coaches and enterprise teams, combining live webinars, automated/simulive and evergreen
-  webinars, an AI webinar funnel builder, EasyCast multistreaming to YouTube, LinkedIn,
-  Facebook and custom RTMP destinations, built-in checkout for paid webinars, and Easy Suite
-  — a native CRM with lead scoring, email sequences and automated follow-up. The platform
-  scales to 100,000 live attendees on Dolby OptiView (Millicast) WebRTC infrastructure and
-  is SOC 2 Type II certified (audited by Scrut Automation) with GDPR controls, SAML 2.0 SSO
-  and SCIM provisioning on the Enterprise tier. EasyWebinar publicly serves an OAuth 2.0 /
-  OpenID Connect authorization server at app.easywebinar.com and markets a REST API and
-  webhooks covering registration, attendance, lead data, CRM sync and event lifecycle
-  events — but that API is a Scale-plan and Enterprise entitlement, and no public reference,
-  OpenAPI or webhook catalogue is published.
+description: EasyWebinar is a live and automated webinar platform for course creators, marketers, coaches
+  and enterprise teams, combining live webinars, automated/simulive and evergreen webinars, an AI webinar
+  funnel builder, EasyCast multistreaming to YouTube, LinkedIn, Facebook and custom RTMP destinations,
+  built-in checkout for paid webinars, and Easy Suite — a native CRM with lead scoring, email sequences
+  and automated follow-up. The platform scales to 100,000 live attendees on Dolby OptiView (Millicast)
+  WebRTC infrastructure and is SOC 2 Type II certified (audited by Scrut Automation) with GDPR controls,
+  SAML 2.0 SSO and SCIM provisioning on the Enterprise tier. EasyWebinar publicly serves an OAuth 2.0
+  / OpenID Connect authorization server at app.easywebinar.com and markets a REST API and webhooks covering
+  registration, attendance, lead data, CRM sync and event lifecycle events — but that API is a Scale-plan
+  and Enterprise entitlement, and no public reference, OpenAPI or webhook catalogue is published.
 url: https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/apis.yml
 x-api-posture: no-product-api
 x-api-posture-basis: observed
@@ -50,7 +47,7 @@ x-tier: stub
 x-tier-reason: harvest
 specificationVersion: '0.23'
 created: '2026-08-12'
-modified: '2026-08-12'
+modified: '2026-09-16'
 tags:
 - Company
 - Webinars
@@ -64,6 +61,7 @@ tags:
 - Identity
 - Authentication
 - Software-as-a-Service
+- Identity Federation
 tags_raw:
 - Company
 - Webinars
@@ -77,14 +75,14 @@ tags_raw:
 - Identity
 - OAuth
 - SaaS
+- Identity Federation
 apis:
 - name: EasyWebinar OAuth 2.0 / OpenID Connect
-  description: >-
-    The only anonymously reachable, machine-readable EasyWebinar API surface. The
-    application host publishes a complete OpenID Connect discovery document and RFC 8414
-    authorization-server metadata, with live authorize, token, userinfo, introspection and
-    revocation endpoints. Scopes advertised are openid, profile, email and basic. Dynamic
-    client registration is disabled, so clients are provisioned out of band.
+  description: The only anonymously reachable, machine-readable EasyWebinar API surface. The application
+    host publishes a complete OpenID Connect discovery document and RFC 8414 authorization-server metadata,
+    with live authorize, token, userinfo, introspection and revocation endpoints. Scopes advertised are
+    openid, profile, email and basic. Dynamic client registration is disabled, so clients are provisioned
+    out of band.
   humanURL: https://easywebinar.com/enterprise/
   baseURL: https://app.easywebinar.com
   tags:
@@ -161,14 +159,12 @@ x-vouched-by:
 - Drip
 - Ontraport
 x-vouch-count: 2
-x-api-access-gate: >-
-  EasyWebinar markets a REST API and webhooks (registration, attendance, lead data, CRM
-  sync, event lifecycle) on https://easywebinar.com/enterprise/, but API access is a paid
-  entitlement that first appears on the Scale plan ($349/mo) and Enterprise, and sandbox
-  access is Enterprise-only. No public API reference, OpenAPI, webhook catalogue or
-  developer portal exists — 33 anonymous probes across easywebinar.com,
-  app.easywebinar.com and support.easywebinar.com returned no specification. The OAuth 2.0
-  / OpenID Connect authorization server at app.easywebinar.com is the only machine-readable
+x-api-access-gate: EasyWebinar markets a REST API and webhooks (registration, attendance, lead data, CRM
+  sync, event lifecycle) on https://easywebinar.com/enterprise/, but API access is a paid entitlement
+  that first appears on the Scale plan ($349/mo) and Enterprise, and sandbox access is Enterprise-only.
+  No public API reference, OpenAPI, webhook catalogue or developer portal exists — 33 anonymous probes
+  across easywebinar.com, app.easywebinar.com and support.easywebinar.com returned no specification. The
+  OAuth 2.0 / OpenID Connect authorization server at app.easywebinar.com is the only machine-readable
   contract the company publishes anonymously.
 x-enrichment:
   date: '2026-08-12'
