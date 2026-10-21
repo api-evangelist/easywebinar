@@ -422,3 +422,16 @@
   relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
+- slug: easywebinar-hubspot-own
+  label: HubSpot (own)
+  partner: hubspot
+  partner_name: HubSpot (own)
+  category: WEBINARS
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://ecosystem.hubspot.com/marketplace/listing/easywebinar-211975
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null

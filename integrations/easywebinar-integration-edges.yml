@@ -8,6 +8,7 @@ checked:
 - https://n8n.io/integrations/easywebinar/
 - https://zapier.com/api/v4/apps/
 - https://zapier.com/apps/easywebinar/integrations
+- hubspot/integrations/hubspot-integration-edges.yml
 summary: null
 marketplace_apps:
 - marketplace: zapier
@@ -413,6 +414,23 @@ edges:
   direction: third-party
   category: Ads & Conversion
   partner_url: https://www.facebook.com/business/ads/lead-ads
+- partner_name: HubSpot (own)
+  partner: hubspot
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://ecosystem.hubspot.com/marketplace/listing/easywebinar-211975
+  mirror_of: hubspot/integrations/hubspot-integration-edges.yml
+  apps:
+  - Easywebinar
+  listing_count: 1
+  detected: '2026-10-21'
+  detected_by: mirror-platform-listings.py
+  category: WEBINARS
 templates:
 - title: Create or update contacts in HubSpot for new registrations in EasyWebinar
   url: https://zapier.com/apps/easywebinar/integrations/hubspot/30293/create-or-update-contacts-in-hubspot-for-new-registrations-in-easywebinar
